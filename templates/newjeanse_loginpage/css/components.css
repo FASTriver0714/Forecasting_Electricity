@@ -1,0 +1,103 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Text CSS
+2. Heading CSS
+3. Component CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-texts {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-textxl {
+  font-size: 34px;
+  font-weight: 300;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 32px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 30px;
+  }
+}
+
+.ui.text {
+  color: var(--gray_900);
+  font-family: 'Gmarket Sans', sans-serif;
+}
+
+/*-------------------------------------
+  2. Heading CSS
+--------------------------------------*/
+.ui.heading.size-textmd {
+  font-size: 21px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.ui.heading.size-textlg {
+  font-size: 24px;
+  font-weight: 500;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+}
+
+.ui.heading {
+  color: var(--blue_gray_900);
+  font-family: 'Gmarket Sans', sans-serif;
+}
+
+/*-------------------------------------
+  3. Component CSS
+--------------------------------------*/
+.logo-container {
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+
+.contrast_logo {
+  width: 100px;
+  margin-bottom: var(--space-sm);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.highlight {
+  color: var(--blue_600);
+}
+
+.forgot-link {
+  margin-top: var(--space-xs);
+}
+
+.passwordhide {
+  display: flex;
+  align-items: center;
+  margin-top: var(--space-xs);
+}
+
+.passwordhide .hide {
+  margin-left: var(--space-xs);
+}
