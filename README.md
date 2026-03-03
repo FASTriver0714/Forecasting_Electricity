@@ -19,14 +19,14 @@
 
 ## 🧰 기술 스택
 - Python, Google Colab
+- DBeaver
 - Flask, FastAPI
 - HTML, CSS, JavaScript
 - MongoDB
 
 ## 🔧 내가 담당한 부분
-- 전처리 및 분석 : 공공 데이터 정제 및 병합, 보간, 데이터 분석 및 시각화
+- 전처리 및 분석 : 공공 데이터 정제 및 병합, 보간, 데이터 분석 및 시각화, DBeaver 데이터 적재 및 추출 관리
 - 모델: 다양한 알고리즘 앙상블 및 Stacking Regressor 구성
-- FE : FE 로직 구성 
 
 ## 🔄 트러블슈팅
 - Overfitting 문제 → 정규화, 교차검증, 메타 모델 구성으로 해결
