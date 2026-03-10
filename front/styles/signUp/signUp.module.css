@@ -1,0 +1,211 @@
+/* 공통 텍스트 스타일 */
+.ui.text.size-textxs {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-texts {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text {
+  color: var(--gray_700);
+  font-family: Gmarket Sans;
+}
+
+/* 제목 스타일 */
+.ui.heading.size-textmd {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.ui.heading {
+  color: var(--gray_900_01) !important;
+  font-family: Gmarket Sans;
+}
+
+/* 인풋 박스와 텍스트 간격 조정 */
+.columnlabel-1 p,
+.columnlabel_two p,
+.columnlabel p {
+  margin-bottom: 10px; /* 텍스트와 인풋 박스 간격 */
+}
+
+/* Common CSS */
+.columnlabel {
+  gap: var(--space-xs);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+/* "아이디" 텍스트와 "Hide" 버튼 아래 마진 추가 */
+.rowlabel_three,
+.rowlabel_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* 텍스트와 버튼 아래에 10px 마진 추가 */
+}
+
+.rowlabel_two {
+  width: 100%;
+}
+
+/* Hide 이미지와 텍스트 위치 통일 */
+.passwordhide {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.passwordhide:hover .hide_one {
+  color: var(--gray_900) !important; /* Hover 시 회색으로 변경 */
+}
+
+.icon_three {
+  height: 24px;
+  width: 24px;
+}
+
+.hide_one {
+  color: var(--gray_700_cc) !important;
+  margin-left: 8px;
+}
+
+/* 인풋 박스 스타일 및 아래 마진 추가 */
+.edittext_one,
+.edittext_two {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--gray_700_59);
+  background-color: #ffffff !important;
+  color: var(--gray_900) !important;
+  margin-bottom: 20px; /* 인풋 박스 아래에 20px 마진 추가 */
+}
+
+/* 오류 메시지 스타일 */
+.errormessage {
+  color: #FF0000 !important;
+  text-decoration: underline;
+  margin-top: 15px;
+  text-align: left;
+}
+
+/* 성공 메시지 스타일 */
+.successmessage {
+  color: #0929dfd7 !important; /* 연두색 */
+  text-decoration: underline;
+  margin-top: 15px;
+  text-align: left;
+}
+
+/* 이메일 인증하기 버튼 스타일 */
+.class_ {
+  display: inline-block;
+  color: var(--blue) !important; /* 텍스트 색상을 원하는 색상으로 설정 */
+  text-decoration: underline !important;
+  cursor: pointer;
+  margin-top: 15px !important; /* 필수 마진 */
+  font-size: 16px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+}
+
+.class-_:hover {
+  color: var(--blue_600) !important; /* Hover 시 색상 변경 */
+}
+
+.label_two {
+  margin-bottom: 8px;
+  font-weight: 500 !important;
+}
+
+.columnerrormess {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+/* 페이지 전체 레이아웃 */
+.columncontrast {
+  background-color: var(--teal_50) !important;
+  padding: 64px 56px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 중앙 정렬 및 로고 텍스트 간격 조정 */
+.rowcontrast_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* 로고와 텍스트 사이의 간격 좁힘 */
+  margin-bottom: 20px;
+}
+
+.contrast_one {
+  height: 58px;
+  width: 20%;
+  object-fit: contain;
+}
+
+.newjeanse {
+  letter-spacing: -0.48px;
+}
+
+.columndivider {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.electricko {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+/* Divider 스타일 */
+.divider_one {
+  height: 2px;
+  background-color: var(--gray_700_3f) !important;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* 회원 가입 버튼 스타일 */
+.class-__ {
+  width: 100%;
+  background-color: var(--white_a700) !important;
+  color: var(--gray_900) !important;
+  padding: 12px 0;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--gray_900) !important;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+.class-__:hover {
+  background-color: var(--gray_100) !important;
+}
