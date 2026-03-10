@@ -1,0 +1,39 @@
+{
+  "favorites": [
+    {
+      "polygonId": "42830",
+      "name": "강원도 양양",
+      "isFavorite": false
+    },
+    {
+      "polygonId": "11110",
+      "name": "서울특별시 종로",
+      "isFavorite": false
+    },
+    {
+      "polygonId": "41135",
+      "name": "경기도 성남",
+      "isFavorite": true
+    }
+  ],
+  "districts": [
+    {
+      "id": "41135",
+      "name": "경기도 성남",
+      "createdDate": "2024-07-12",
+      "updatedDate": "2024-08-12"
+    }
+  ],
+  "bills": [
+    {
+      "id": "993d2a19-5214-40f3-bfa5-bfdae3a26d26",
+      "name": "2024년 7월 고지서.jpg",
+      "createdDate": "2024-07-19",
+      "updatedDate": "2024-08-19",
+      "dueDate": "2024년07월16일",
+      "amountDue": "60,580",
+      "imagePath": "http://localhost:5000/uploads/99e9b75d-ffe6-4ecf-bd89-adb6e12be190.jpg",
+      "powerUsage": 312
+    }
+  ]
+}
